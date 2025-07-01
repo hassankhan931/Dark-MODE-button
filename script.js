@@ -1,8 +1,8 @@
-let Darkmode = false;
+let darkMode = false;
 let btn = document.querySelector(".btn");
 btn.addEventListener("click",()=>{
-    Darkmode = !Darkmode;
-    if (Darkmode){
+    darkMode = !darkMode;
+    if (darkMode){
         document.body.style.backgroundColor = "black" ;
     } else {
         document.body.style.backgroundColor = "white" ;
